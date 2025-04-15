@@ -20,7 +20,7 @@ fi
 
 # Install the requirements
 $VIRTUALENV/bin/pip install -r requirements.txt
-$VIRTUALENV/bin/pip install googletrans-py
+$VIRTUALENV/bin/pip install git+https://github.com/karlreginaldo/googletrans.git
 
 # Run your glorious application
-$VIRTUALENV/bin/python3 server.py
+$VIRTUALENV/bin/python3 main.py
